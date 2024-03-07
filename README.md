@@ -9,7 +9,8 @@ exports["foltone_dialog"]:FoltoneDialog("Test", "Enter message", function(result
     print(result)
 end)
 ```
-
+## Screenshot
+![image](https://github.com/foltone/foltone_dialog/assets/77021937/39b112ec-15a4-482d-b4fe-8ef1d6332ce1)
 
 ## License
 Ce projet est sous licence ``CC BY-NC 4.0 DEED`` [LICENSE](https://creativecommons.org/licenses/by-nc/4.0/) pour plus d'informations
