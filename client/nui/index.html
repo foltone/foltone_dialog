@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+</head>
+<body>
+    <form id="form">
+        <h1 id="title">Send a message</h1>
+        <input type="text" id="input" placeholder="Enter a message">
+        <div class="buttons">
+            <button type="submit" id="submit">Send</button>
+            <button type="button" id="cancel">Cancel</button>
+        </div>
+    </form>
+    <style>
+        #form {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            width: 500px;
+            display: none;
+            flex-direction: column;
+            background-color: rgba(0, 0, 0, 0.5);
+            padding: 20px;
+            border-radius: 5px;
+            border: none;
+            font-family: Arial, sans-serif;
+        }
+        #title {
+            margin: 0 0 20px 0;
+            text-align: center;
+            color: white;
+        }
+        #input {
+            padding: 10px;
+            font-size: 16px;
+            border-radius: 5px;
+            border: none;
+            margin-bottom: 20px;
+        }
+        #input:focus {
+            outline: none;
+        }
+        .buttons {
+            display: flex;
+            justify-content: center;
+        }
+        button {
+            margin: 0 10px;
+            padding: 10px 20px;
+            font-size: 16px;
+            border-radius: 5px;
+            border: none;
+            cursor: pointer;
+        }
+        #cancel {
+            background-color: #f44336;
+            color: white;
+        }
+        #cancel:hover {
+            background-color: #d32f2f;
+        }
+        #submit {
+            background-color: #4caf50;
+            color: white;
+        }
+        #submit:hover {
+            background-color: #388e3c;
+        }
+    </style>
+    <script src="script.js" id="script"></script>
+</body>
+</html>
