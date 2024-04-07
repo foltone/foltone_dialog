@@ -19,9 +19,3 @@ RegisterNUICallback("sendDialog", function(data, cb)
     end
     cb("ok")
 end)
-
-RegisterCommand("test", function()
-    exports["foltone_dialog"]:FoltoneDialog("Test", "Enter message", function(result)
-        print(result)
-    end)
-end, false)
